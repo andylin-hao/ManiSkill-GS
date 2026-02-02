@@ -24,13 +24,7 @@ Download [RLinf/gsenv-assets-v0](https://huggingface.co/datasets/RLinf/gsenv-ass
 
 ```bash
 export HF_ENDPOINT=https://hf-mirror.com
-huggingface-cli download RLinf/gsenv-assets-v0 --local-dir assets/
-```
-
-If you prefer git (no HF CLI):
-
-```bash
-git clone https://huggingface.co/datasets/RLinf/gsenv-assets-v0 assets
+hf download RLinf/gsenv-assets-v0 --repo-type dataset --local-dir ./assets
 ```
 
 ## Tasks
