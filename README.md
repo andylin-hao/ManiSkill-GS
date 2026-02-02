@@ -15,6 +15,7 @@ Requires CUDA (for GS rendering). Clone the repo and install in editable mode (M
 ```bash
 git clone -b v01 git@github.com:chenkang455/ManiSkill-GS.git
 cd ManiSkill-GS
+pip install urdfpy==0.0.22
 pip install -e .
 ```
 
