@@ -1,0 +1,17 @@
+data/
+videos/
+assets/
+outputs/
+__pycache__/
+datasets/
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+motionplanning/
+.vscode/
+run.sh
+pkgs/
+Teleop-FrankaPy/
+checkpoints/
+mani_skill_gs.egg-info
