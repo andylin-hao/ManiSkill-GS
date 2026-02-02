@@ -13,7 +13,7 @@ Use Docker image from RLinf in [install-dependencies](https://rlinf.readthedocs.
 Requires CUDA (for GS rendering). Clone the repo and install in editable mode (ManiSkill, Gymnasium, Nerfstudio, gsplat, etc. are listed in `setup.py`):
 
 ```bash
-git clone git@github.com:chenkang455/ManiSkill-GS.git
+git clone -b v01 git@github.com:chenkang455/ManiSkill-GS.git
 cd ManiSkill-GS
 pip install -e .
 ```
