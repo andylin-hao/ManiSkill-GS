@@ -7,7 +7,8 @@ A simulation platform combining **ManiSkill** robot simulation, **Gaussian Splat
 </p>
 
 ## Setup
-Use Docker image from RLinf in [install-dependencies](https://rlinf.readthedocs.io/en/latest/rst_source/examples/pi0.html#install-dependencies).
+
+For the full RL workflow (e.g. PPO with π₀.₅ on GSEnv), see [RL with Real2Sim2Real GSEnv](https://rlinf.readthedocs.io/en/latest/rst_source/examples/gsenv.html). Use the Docker image from RLinf in [install-dependencies](https://rlinf.readthedocs.io/en/latest/rst_source/examples/pi0.html#install-dependencies).
 
 
 Requires CUDA (for GS rendering). Clone the repo and install in editable mode (ManiSkill, Gymnasium, Nerfstudio, gsplat, etc. are listed in `setup.py`):
