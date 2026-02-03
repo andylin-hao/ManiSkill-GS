@@ -2,13 +2,15 @@
 
 A simulation platform combining **ManiSkill** robot simulation, **Gaussian Splatting** rendering, and **Real-to-Sim-to-Real** transfer learning for robotic manipulation tasks, built in [pi_RL: Online RL Fine-tuning for Flow-based Vision-Language-Action Models](https://arxiv.org/pdf/2510.25889).
 
+For the full RL workflow (e.g. PPO with π₀.₅ on GSEnv), see [RL with Real2Sim2Real GSEnv](https://rlinf.readthedocs.io/en/latest/rst_source/examples/gsenv.html).
+
 <p align="center">
   <img src="imgs/figure.png" width="65%">
 </p>
 
 ## Setup
 
-For the full RL workflow (e.g. PPO with π₀.₅ on GSEnv), see [RL with Real2Sim2Real GSEnv](https://rlinf.readthedocs.io/en/latest/rst_source/examples/gsenv.html). Use the Docker image from RLinf in [install-dependencies](https://rlinf.readthedocs.io/en/latest/rst_source/examples/pi0.html#install-dependencies).
+Use the Docker image from RLinf in [install-dependencies](https://rlinf.readthedocs.io/en/latest/rst_source/examples/pi0.html#install-dependencies).
 
 
 Requires CUDA (for GS rendering). Clone the repo and install in editable mode (ManiSkill, Gymnasium, Nerfstudio, gsplat, etc. are listed in `setup.py`):
